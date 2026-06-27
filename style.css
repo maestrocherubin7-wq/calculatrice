@@ -1,0 +1,75 @@
+*{
+        margin: 0;
+}
+body{
+        width: 100vh;
+        height: 100vb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.containeur{
+        
+        width: 60vh;
+        height: 63vh;
+        background-color: rgb(79, 79, 88);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 8px rgba(0, 0, 0, 10);
+
+}
+.affiche{
+        width: 400px;
+        height: 80px;
+        background-color: rgb(44, 40, 40);
+        align-self: center;
+        margin-top: 30px;
+        border-radius: 20px;
+        color: orange;
+        display: flex;
+        align-items: flex-end;
+        padding: 3px;
+        font-size: 30px;
+        box-shadow: 3px 4px 8px rgba(0, 0, 0, 10);
+}
+
+.signenombre button{
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px; 
+        background-color: rgb(79, 79, 88);
+        color: none;
+}
+.signenombre p:hover{
+        cursor: pointer;
+}
+
+.signenombre{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,90px);
+        gap: 5px;
+        padding: 5px;
+}
+#add{
+        grid-column: 1;
+}
+#sous{
+        grid-column: 1;
+        grid-row: 2;
+}
+#multi{
+        grid-column: 1;
+        grid-row: 3;
+}
+#divi{
+        grid-column: 1;
+        grid-row: 4;
+}
+p{
+        color: orange;
+}
